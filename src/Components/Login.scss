@@ -1,0 +1,106 @@
+.logincont {
+  z-index: 1000;
+  width: 100vw;
+  height: 100vh;
+  background-color: #f0f2f5;
+  position: fixed;
+  top: 0;
+
+  left: 0;
+  display: flex;
+  .left {
+    flex: 5;
+    height: inherit;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .box {
+      width: 400px;
+      height: 380px;
+      display: flex;
+      font-size: 40px;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 55px;
+      .ic {
+        color: red;
+      }
+    }
+    h5 {
+      margin-top: -60px;
+      font-size: 27px;
+      margin-left: -8px;
+    }
+  }
+  .right {
+    flex: 5;
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    .box {
+      width: 410px;
+      margin-top: 150px;
+      height: 330px;
+      background-color: white;
+      box-shadow: 0px 0px 8px rgba(43, 42, 42, 0.274);
+      border-radius: 8px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      .input {
+        margin-top: 20px;
+        width: 94%;
+        height: 50px;
+        background-color: #e8f0fe;
+        border-radius: 12px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        input {
+          border-radius: 12px;
+          margin-left: 10px;
+          width: 98%;
+          background-color: transparent;
+          height: 45px;
+          border: none;
+          outline: none;
+        }
+      }
+      .eye {
+        margin-right: 15px;
+        font-size: 17px;
+        cursor: pointer;
+      }
+      .passcont {
+        input {
+          outline: none;
+          margin-left: 10px;
+        }
+      }
+      .passcont:active,.input:active {
+        outline-width: 2px;
+        outline-color: lightblue;
+        outline-style: solid;
+      }
+      .login {
+        transition-duration: 0.4s;
+        background-color: rgba(0, 0, 248, 0.575);
+        -webkit-transition-duration: 0.4s;
+        color: white;
+        cursor: pointer;
+      }
+
+      .create {
+        background-color: rgb(54, 167, 54);
+        color: white;
+        cursor: pointer;
+      }
+      .forget {
+        color: rgba(33, 33, 221, 0.705);
+        cursor: pointer;
+      }
+    }
+  }
+}

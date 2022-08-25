@@ -1,0 +1,25 @@
+.lc {
+  padding-top: 40px;
+  .listcont {
+    width: 300px;
+    height: 50px;
+    margin-left: 20px;
+    margin-top: 10px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    font-size: 23px;
+    .ic{
+        margin-left:10px ;
+    }
+    span{
+        font-size: 15px !important;
+        margin-top: 3px;
+        margin-left: 7px;
+    }
+  }
+  .listcont:hover {
+    background-color: rgba(128, 128, 128, 0.137);
+    cursor: pointer;
+  }
+}

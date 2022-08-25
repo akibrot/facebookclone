@@ -1,0 +1,106 @@
+.NavCont {
+  height: 57px;
+  width: 100vw;
+  background-color: white;
+  position: fixed;
+  box-shadow: 1px 0px 30px black;
+  box-shadow: -1px 1px 20px 2px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: -1px 1px 20px 2px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -1px 1px 20px 2px rgba(0, 0, 0, 0.75);
+  display: flex;
+  .left {
+    flex: 3;
+    height: inherit;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    .fb {
+      color: #2525f5d5;
+      font-size: 40px;
+      margin-left: 20px;
+    }
+    .input {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      background-color: #f0f2f5;
+      height: 40px;
+      border-radius: 25px;
+      margin-left: 20px;
+      width: 300px;
+
+      .search {
+        margin-left: 20px;
+        color: gray;
+      }
+      input {
+        margin-left: 5px;
+        border: none;
+        outline: none;
+        background-color: #f0f2f5;
+      }
+    }
+  }
+  .center {
+    flex: 4;
+    height: inherit;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    .box {
+      width: 90px;
+      height: 50px;
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .box:hover {
+      background-color: #f0f2f5;
+      cursor: pointer;
+    }
+    .ic {
+      font-size: 25px;
+      color: gray;
+    }
+  }
+  .right {
+    flex: 3;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    overflow: hidden;
+    .profile {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      width: 75px;
+      height: 32px;
+      margin-right: 6px;
+      border-radius: 12px;
+      cursor: pointer;
+      .u{
+          padding-left: 10px;
+          padding-right: 10px;
+          color: gray;
+      }
+    }
+    .profile:hover {
+      background-color: #f0f2f5;
+    }
+    .attributs {
+      width: 50px;
+      height: 50px;
+      background-color: #f0f2f5;
+      border-radius: 50%;
+      margin-right: 10px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 20px;
+    }
+  }
+}

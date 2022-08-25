@@ -1,0 +1,25 @@
+*{
+  overflow-x:hidden ;
+  scrollbar-width: none;
+}
+.App{
+  height: 100vh;
+  .sections{
+    width: 100vw;
+    position: relative;
+    top: 57px;
+    height: calc(100vh - 57px);
+    background-color: #f0f2f5;
+    display: flex;
+    .leftmain{
+      flex: 2.5;
+    }
+    .centermain{
+      flex: 5;
+      background-color: #f0f2f5;
+    }
+    .rightmain{
+      flex: 2.5;
+    }
+  }
+}

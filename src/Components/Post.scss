@@ -1,0 +1,35 @@
+.postbox {
+    display: flex;
+    flex-direction: column;
+  .top {
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    .propic {
+      width: 47px;
+      height: 47px;
+      background-color: rgba(128, 128, 128, 0.329);
+      border-radius: 50%;
+      margin-left: 15px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    span{
+        margin-left: 10px;
+    }
+  }
+  .bottom{
+      display: flex;
+      flex-direction: column;
+      .text{
+          p{
+              padding: 20px;
+          }
+      }
+      .picture{
+          margin: 0 auto;
+      }
+  }
+}
